@@ -8,7 +8,7 @@ applications:
       - route: backlog-pal-sachin.cfapps.io
     path: Applications/BacklogServer/bin/Release/netcoreapp3.1/publish
     env:
-      - GRANT_TYPE: client_credentials
+      GRANT_TYPE: client_credentials
     services:
       - tracker-backlog-database
       - tracker-service-registry
